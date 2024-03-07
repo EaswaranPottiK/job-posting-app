@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv').config()
 
 mongoose.connect(
-  'mongodb+srv://easwaranpottiak:4mmSjBZMkIOYyutu@cluster0.cixehwo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+  `mongodb+srv://easwaranpottiak:${process.env.PASSWORD}@cluster0.cixehwo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
   {}
 )
   .then(() => {

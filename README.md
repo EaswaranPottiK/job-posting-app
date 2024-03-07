@@ -1,4 +1,7 @@
 ﻿# job-posting-app
+The app is deployed on Render https://job-posting-app-1.onrender.com/
+for eg https://job-posting-app-1.onrender.com/api/jobs
+![image](https://github.com/EaswaranPottiK/job-posting-app/assets/38095510/ccbf76b9-9a99-42af-84dc-d926c8fb6ce7)
 
 # GET API - for fetching all job post details form mongo db 
 ![gat api](https://github.com/EaswaranPottiK/job-posting-app/assets/38095510/746ea07b-aa49-443c-b2b0-57da936618ae)

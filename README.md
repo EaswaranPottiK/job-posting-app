@@ -5,3 +5,9 @@
 
 # POST API - for adding job details to mongo db
 ![post](https://github.com/EaswaranPottiK/job-posting-app/assets/38095510/a549f3e1-5025-4e89-8eb1-a0c92f48e985)
+
+# PUT API - for updating value of a particular record
+![put](https://github.com/EaswaranPottiK/job-posting-app/assets/38095510/3ac198eb-71bb-47c8-8f34-215f9ec60872)
+
+# DELETE API - for deleting a particular record
+![delete](https://github.com/EaswaranPottiK/job-posting-app/assets/38095510/bc6fc37c-c410-4db0-ab9a-0d90b6a7caab)

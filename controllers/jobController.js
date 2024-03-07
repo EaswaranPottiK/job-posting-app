@@ -10,12 +10,15 @@ exports.createJob = async (req, res) => {
     } catch (error) {
       res.status(500).json({ error: error.message });
     }
-  };
+  },
 
   exports.getJobs = async (req,res) =>{
+
     try{
-    const jobs = await Job.find();
-    res.status(200).json(jobs);
+      console.log('test string')
+    const Jobs = await Job.find();
+    console.log("Jobs  "+Jobs)
+    return res.json(Jobs);
     }catch(error){
       res.status(500).json({ error: error.message });
     }

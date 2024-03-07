@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const jobRoutes = require('./routes/jobRoutes')
-const Job  = require('./models/jobs')
+const Job  = require('./models/Job')
 const express = require('express')
 const app = express()
 const port = 3000;
